@@ -1,0 +1,191 @@
+IN R1 2
+LDR load rigister from memory R1 X1 0 0
+JZ jump to zero R1 X2 0 10
+OUT R1 2
+STX store index to memory X1 X0 0 31
+LDR load rigister from memory R2 X0 0 31
+AIR add immediate to register R2 1
+STR Store Register To Memory R2 X0 0 31
+LDX Load Index Register from Memory X1 X0 0 31
+JMA Unconditional Jump To Address X2 0 1
+IN R1 3
+LDR load rigister from memory R1 X3 0 0
+JZ jump to zero R1 X2 0 20
+STX store index to memory X3 X0 0 31
+LDR load rigister from memory R2 X0 0 31
+AIR add immediate to register R2 1
+STR Store Register To Memory R2 X0 0 31
+LDX Load Index Register from Memory X3 X0 0 31
+AIR add immediate to register R3 1
+JMA Unconditional Jump To Address X2 0 11
+LDX Load Index Register from Memory X2 X0 0 22
+STR Store Register To Memory R3 X0 0 28
+LDA R1 X0 0 1
+LDA R2 X0 0 1
+LDX Load Index Register from Memory X1 X0 0 10
+STX store index to memory X2 X1 0 0
+LDX Load Index Register from Memory X1 X0 0 12
+STR Store Register To Memory R1 X1 0 0
+LDX Load Index Register from Memory X1 X0 0 13
+STR Store Register To Memory R2 X1 0 0
+STX store index to memory X2 X0 0 31
+LDR load rigister from memory R0 X0 0 31
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 31
+LDX Load Index Register from Memory X2 X0 0 31
+LDR load rigister from memory R3 X2 0 0
+LDX Load Index Register from Memory X3 X0 0 24
+JZ jump to zero R3 X3 0 10
+SMR R3 X0 0 15
+LDX Load Index Register from Memory X3 X0 0 23
+JNE R3 X3 0 1
+STX store index to memory X2 X0 0 31
+LDR load rigister from memory R0 X0 0 31
+SIR R0 1
+LDX Load Index Register from Memory X1 X0 0 11
+STR Store Register To Memory R0 X1 0 0
+LDR load rigister from memory R0 X0 0 10
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 10
+LDR load rigister from memory R0 X0 0 11
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 11
+LDR load rigister from memory R0 X0 0 12
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 12
+LDR load rigister from memory R0 X0 0 13
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 13
+STX store index to memory X2 X0 0 31
+LDR load rigister from memory R0 X0 0 31
+AIR add immediate to register R0 1
+LDX Load Index Register from Memory X1 X0 0 10
+STR Store Register To Memory R0 X1 0 0
+LDX Load Index Register from Memory X1 X0 0 12
+STR Store Register To Memory R1 X1 0 0
+LDX Load Index Register from Memory X1 X0 0 13
+AIR add immediate to register R2 1
+STR Store Register To Memory R2 X1 0 0
+LDX Load Index Register from Memory X3 X0 0 24
+JMA Unconditional Jump To Address X3 0 3
+LDR load rigister from memory R3 X2 0 0
+SMR R3 X0 0 16
+LDX Load Index Register from Memory X3 X0 0 24
+JNE R3 X3 0 3
+STX store index to memory X2 X0 0 31
+LDR load rigister from memory R0 X0 0 31
+SIR R0 1
+LDX Load Index Register from Memory X1 X0 0 11
+STR Store Register To Memory R0 X1 0 0
+LDR load rigister from memory R0 X0 0 10
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 10
+LDR load rigister from memory R0 X0 0 11
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 11
+LDR load rigister from memory R0 X0 0 12
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 12
+LDR load rigister from memory R0 X0 0 13
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 13
+STX store index to memory X2 X0 0 31
+LDR load rigister from memory R0 X0 0 31
+AIR add immediate to register R0 1
+LDX Load Index Register from Memory X1 X0 0 10
+STR Store Register To Memory R0 X1 0 0
+LDX Load Index Register from Memory X1 X0 0 12
+AIR add immediate to register R1 1
+STR Store Register To Memory R1 X1 0 0
+LDX Load Index Register from Memory X1 X0 0 13
+LDA R2 X0 0 1
+STR Store Register To Memory R2 X1 0 0
+STX store index to memory X2 X0 0 31
+LDR load rigister from memory R0 X0 0 31
+AIR add immediate to register R0 1
+STR Store Register To Memory R0 X0 0 31
+LDX Load Index Register from Memory X2 X0 0 31
+LDX Load Index Register from Memory X3 X0 0 25
+JMA Unconditional Jump To Address X3 0 0
+LDX Load Index Register from Memory X1 X0 0 5
+LDX Load Index Register from Memory X3 X0 0 24
+LDA R2 X0 0 0
+LDR load rigister from memory R1 X1 0 0
+JZ jump to zero R1 X3 0 23
+AIR add immediate to register R2 1
+STR Store Register To Memory R2 X0 0 8
+STX store index to memory X1 X0 0 31
+LDR load rigister from memory R3 X0 0 31
+AIR add immediate to register R3 1
+STR Store Register To Memory R3 X0 0 31
+LDX Load Index Register from Memory X1 X0 0 31
+JMA Unconditional Jump To Address X3 0 13
+LDR load rigister from memory R0 X0 0 8
+LDX Load Index Register from Memory X3 X0 0 2
+JZ jump to zero R0 X3 0 21
+SIR R0 1
+LDR load rigister from memory R1 X0 I 5
+SMR R1 X0 I 4
+AIR add immediate to register R1 1
+SMR R1 X0 0 28
+JNE R1 X3 0 7
+LDX Load Index Register from Memory X1 X0 0 21
+LDR load rigister from memory R2 X0 I 4
+STR Store Register To Memory R2 X0 0 19
+LDX Load Index Register from Memory X2 X0 0 19
+LDR load rigister from memory R1 X0 0 28
+LDX Load Index Register from Memory X3 X0 0 3
+JZ jump to zero R1 X3 0 27
+SIR R1 1
+LDR load rigister from memory R2 X1 0 0
+SMR R2 X2 0 0
+LDX Load Index Register from Memory X3 X0 0 3
+JZ jump to zero R2 X3 0 16
+JMA Unconditional Jump To Address X3 0 14      
+LDA R3 X0 0 1
+STR Store Register To Memory R3 X0 0 1
+STX store index to memory X1 X0 0 31 
+LDR load rigister from memory R3 X0 0 31
+AIR add immediate to register R3 1
+STR Store Register To Memory R3 X0 0 31
+LDX Load Index Register from Memory X1 X0 0 31
+STX store index to memory X2 X0 0 31
+LDR load rigister from memory R3 X0 0 31
+AIR add immediate to register R3 1
+STR Store Register To Memory R3 X0 0 31
+LDX Load Index Register from Memory X2 X0 0 31 
+JMA Unconditional Jump To Address X3 0 6
+LDX Load Index Register from Memory X1 X0 0 21
+LDR load rigister from memory R3 X0 0 1
+LDX Load Index Register from Memory X3 X0 0 2
+JNE R3 X3 0 5
+LDR load rigister from memory R3 X0 I 6
+OUT R3 1
+LDR load rigister from memory R3 X0 I 7
+OUT R3 1
+LDA R3 X0 0 0
+STR Store Register To Memory R3 X0 0 1
+LDR load rigister from memory R3 X0 0 4
+AIR add immediate to register R3 1
+STR Store Register To Memory R3 X0 0 4
+LDR load rigister from memory R3 X0 0 5
+AIR add immediate to register R3 1
+STR Store Register To Memory R3 X0 0 5
+LDR load rigister from memory R3 X0 0 6
+AIR add immediate to register R3 1
+STR Store Register To Memory R3 X0 0 6
+LDR load rigister from memory R3 X0 0 7
+AIR add immediate to register R3 1
+STR Store Register To Memory R3 X0 0 7
+LDX Load Index Register from Memory X3 X0 0 24
+JMA Unconditional Jump To Address X3 0 24
+LDX Load Index Register from Memory X1 X0 0 21
+LDR load rigister from memory R1 X1 0 0
+JZ jump to zero R1 X3 0 31
+OUT R1 2
+STX store index to memory X1 X0 0 31
+LDR load rigister from memory R2 X0 0 31
+AIR add immediate to register R2 1
+STR Store Register To Memory R2 X0 0 31
+LDX Load Index Register from Memory X1 X0 0 31
+JMA Unconditional Jump To Address X3 0 22
